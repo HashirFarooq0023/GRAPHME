@@ -48,7 +48,7 @@ GRAPHS = {
 }
 
 # --- 1. Page Title & Settings ---
-st.set_page_config(page_title="AI Algorithm Visualizer", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Graph Me Algos", layout="wide", initial_sidebar_state="collapsed")
 
 # --- 2. Premium UI & Glassmorphism CSS ---
 st.markdown("""
@@ -330,7 +330,7 @@ with col_right:
 
 
 with col_left:
-    st.title("AI Algorithm Visualizer")
+    st.title("Graph Me Algos")
     
     # Establish graph and position
     G = nx.DiGraph(current_graph)

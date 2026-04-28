@@ -79,7 +79,7 @@ st.markdown("""
 }
 
 /* Input boxes styling */
-.stTextInput>div>div>input, .stNumberInput>div>div>input {
+.stTextInput>div>div>input, .stNumberInput>div>div>input, .stTextArea textarea {
     background-color: rgba(0, 0, 0, 0.2) !important;
     color: white !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
